@@ -5,6 +5,11 @@ class Flat < Formula
   sha256 "c557f182f33768735640d5e9a7052db00d739330708c3031111f656d4b8dbb27"
   license "MIT"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   depends_on "rust" => :build
 
   def install
