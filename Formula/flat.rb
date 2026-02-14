@@ -1,8 +1,8 @@
 class Flat < Formula
   desc "Flatten codebases into AI-friendly format"
   homepage "https://github.com/zkoranges/flat"
-  url "https://github.com/zkoranges/flat/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "d6917cdb0160e3783b994679931c25956a7ed2d1a03048c079d92b32143bf00e"
+  url "https://github.com/zkoranges/flat/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "d2691b09131a22dc1f4f6060d499007581eba55ef389ff0624339051e015c1ec"
   license "MIT"
 
   livecheck do
